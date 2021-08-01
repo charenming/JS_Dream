@@ -19,16 +19,9 @@ body { background-color: beige;
         background: rgb(237,161,218);
         background: linear-gradient(90deg, rgba(237,161,218,1) 0%, rgba(255,248,51,1) 54%, rgba(0,212,255,1) 100%);
         height:50px; padding-top:15px; 
-        color:#fff; font-size: 24px;
+        color:#666; font-size: 14px;
         line-height: 20px;        
     }
-
-.item_divider {
-    width:90%;
-    height:1px;
-    background-color: #eee;
-    margin:auto;
-}
 
 .items {
     height:500px;
@@ -44,16 +37,17 @@ body { background-color: beige;
 .item_divider {
     width: 90%;
     height:1px;
-    background-color: lightgray;
+    background-color: pink;
     margin: auto;
 }
 .item_delete {
     font-size: 16px;
-    transition:all 300ms ease-in;
+    transition:all 100ms ease-in;
             }
 
-.item_delete:hover {background-color: tomato; }
-.footer { border-radius: 0 0 20px 20px ;
+.item_delete:hover {color: pink; }
+.footer { 
+    border-radius: 0 0 20px 20px ;
     background: rgb(237,161,218);
     background: linear-gradient(90deg, rgba(237,161,218,1) 0%, rgba(255,248,51,1) 54%, rgba(0,212,255,1) 100%);
     }
